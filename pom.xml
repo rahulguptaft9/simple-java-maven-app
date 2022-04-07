@@ -65,5 +65,11 @@
         </executions>
       </plugin>
     </plugins>
+    <repositories>
+      <repository>
+       <id>nexus</id>
+       <url>http://192.168.122.142:8081/repository/maven-public</url> 
+      </repository>        
+    </repositories>  
   </build>
 </project>
